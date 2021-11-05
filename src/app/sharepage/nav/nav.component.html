@@ -1,4 +1,4 @@
-<nav class="flex items-center justify-between flex-wrap bg-black py-6">
+<nav class="flex items-center justify-between flex-wrap bg-black py-6 px-10">
     <div class="flex-1 flex items-center flex-shrink-0 text-white mr-6">
       <img src="assets/img/f-logo.svg" class="h-20 fill-current"/>
       <span class="font-semibold text-4xl tracking-tight">My Site</span>
@@ -8,35 +8,38 @@
         <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
       </button>
     </div>
-    <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
+    <div class="w-full block flex-grow lg:flex lg:items-center lg:justify-center lg:w-auto">
       <div class="text-2xl flex-1 tracking-tight font-serif lg:flex-grow">
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12">
+        <a routerLink="" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}">
+          Home
+        </a>
+        <a routerLink="about" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12" routerLinkActive="active-link">
           About
         </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12">
+        <a routerLink="skill" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12" routerLinkActive="active-link">
           Skill
         </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12">
+        <a routerLink="blogs" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white mr-12" routerLinkActive="active-link">
           Blog
         </a>
-        <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white">
+        <a routerLink="contact" class="block mt-4 lg:inline-block lg:mt-0 text-amber-600 hover:text-white" routerLinkActive="active-link">
             Contact
         </a>
       </div>  
     </div>
     <div>
-        <!-- <a href="#" class="flex-1 inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a> -->
         <button
             type="button"
             class="
-            p-4
+              p-4
               transition
               duration-500
               ease-in-out
               text-2xl
               flex-1
               leading-none
-              border
+              border-amber-400
+              border-4
               rounded-full
               text-indigo-900
               bg-white

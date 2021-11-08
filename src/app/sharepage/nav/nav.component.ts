@@ -7,9 +7,16 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavComponent implements OnInit {
 
+  isShow:boolean=true;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  showList(){
+    this.isShow=!this.isShow;
+    console.log(this.isShow);
   }
 
 }

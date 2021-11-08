@@ -20,7 +20,7 @@ module.exports = {
       1: "url('src/assets/img/1.jpg')",
       2: "url('src/assets/img/2.jpg')",
       3: "url('src/assets/img/3.jpg')",
-      4: "url('src/assets/img/4.jpeg')",
+      4: "url('src/assets/img/4.jpg')",
       5: "url('src/assets/img/5.jpg')"
     }
   },

@@ -4,3 +4,10 @@
 .slide:hover {
     @apply flex-5;
 } */
+#slider{
+  overflow: hidden;
+}
+#slider figure{
+position: relative;
+animation: 20s slider infinite;
+}

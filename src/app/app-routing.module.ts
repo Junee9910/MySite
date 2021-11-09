@@ -4,12 +4,10 @@ import { AboutComponent } from './pages/about/about.component';
 import { BlogComponent } from './pages/blog/blog.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
-import { SkillComponent } from './pages/skill/skill.component';
 
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'about',component:AboutComponent},
-  {path:'skill',component:SkillComponent},
   {path:'blogs',component:BlogComponent},
   {path:'contact',component:ContactComponent}
 ];

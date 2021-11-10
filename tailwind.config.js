@@ -15,7 +15,9 @@ module.exports = {
       white:colors.white,
       gray:colors.blueGray,
       cyan:colors.cyan,
-      rose:colors.rose
+      rose:colors.rose,
+      violet:colors.violet,
+      lime:colors.lime
     },
     backgroundImage: {
       1: "url('src/assets/img/1.jpg')",

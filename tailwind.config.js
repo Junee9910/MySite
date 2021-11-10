@@ -25,7 +25,8 @@ module.exports = {
       3: "url('src/assets/img/3.jpg')",
       4: "url('src/assets/img/4.jpg')",
       5: "url('src/assets/img/5.png')",
-      6: "url('src/assets/img/6.jpg')"
+      6: "url('src/assets/img/6.jpg')",
+      7: "url('src/assets/img/7.jpg')"
     }
   },
   variants: {
